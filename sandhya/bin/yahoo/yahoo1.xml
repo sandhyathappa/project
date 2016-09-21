@@ -1,0 +1,21 @@
+<suite name ="yahoo">
+<test name="tst_sanitry_InternetExplorer">
+<parameter name="browser" value="InterneteExplorer"/>
+<classes>
+<class name="yahoo.sanitrytest "/>
+</classes>
+</test>
+
+<test name="tst_restest_InternetExplorer"/>
+<parameter name="browser" value="InternetExplorer"/>
+<classes>
+<class name="yahoo.restest"/>
+</classes>
+
+
+<test name="tst_restest_Chrome"/>
+<parameter name="browser" value="Chrome"/>
+<classes>
+<class name="yahoo.restest"/>
+</classes>
+</suite>
